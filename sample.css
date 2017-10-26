@@ -84,6 +84,7 @@ a:hover img{
 ---------------------------*/
 body{
   border-top: springgreen 3px solid;
+  background-image: url("./images/006-subtle-light-patterns.jpg")
 }
 
 header{
