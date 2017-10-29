@@ -12,6 +12,7 @@ header {
     width:100%;
     height:200px;
     float:right;
+    margin-top:30px;
 
 }
 
@@ -25,7 +26,9 @@ header {
 
 
 
-ul { padding-left: 0;  }
+ul { padding-left: 0; 
+   
+}
 ul li { list-style-type: none; }
 a { color: inherit; text-decoration: none; }
 
@@ -52,12 +55,18 @@ a { color: inherit; text-decoration: none; }
 
 .section-body{
     background-color:white;
-    height:800px;
+    
     top:0px;
 }
 
+#ground {
+    height:850px;
+
+}
+
+
 .maxim {
-    font-size:45px;
+    font-size:30px;
     
     margin-left:50px;
 }
@@ -65,6 +74,30 @@ a { color: inherit; text-decoration: none; }
 .doors{
     position:absolute;
     left:1000px;
-    top:500px;
+    top:550px;
 }
 
+#home {
+    height:850px;
+    width:100%;
+    background-color:white;
+    color:black;
+    
+}
+
+#home h1 {
+    font-size:30px;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    background-color:black;
+    color:white;
+    
+    
+}
+
+.arrow {
+    position:absolute;
+    left:1200px;
+    top:600px;
+    display:none;
+}
